@@ -1,0 +1,26 @@
+.fixNav{
+    height:1.333333rem;
+    display:flex;
+    align-items: center;
+    li{
+        flex:1;
+        height:1.333333rem;
+        text-align:center;
+        position:relative;
+        padding-top:0.186667rem;
+        border-top:0.013333rem solid #ccc;
+    }
+    i{
+        display:block;
+        font-size:0.586667rem;
+    }
+    img{
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        bottom:0.026667rem;
+    }
+}
+.fixActive{
+    background:#F5FFFA;
+}
